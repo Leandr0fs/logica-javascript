@@ -11,5 +11,7 @@ function Pessoa(nome, sobrenome){
 const pessoaA = Pessoa("Leandro", "Ferreira")
 const pessoaB = Pessoa("JOSE", "Fortes")
 
-console.log(pessoaA, pessoaB)
-console.log(pessoaA.nomeCompleto)
+console.log ({
+  pessoaA,
+  pessoaB
+})
